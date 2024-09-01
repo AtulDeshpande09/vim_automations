@@ -4,10 +4,10 @@
 " Boiler Plate commands .
 
 " HTML
-command! Html execute 'read !python3 ~/path/to/boilerplate.py html'
+command! Html execute 'read !python3 ~/path/to/boiler_plate.py html'
 
 " Java
-command! Java execute 'read !python3 ~/path/to/boilerplate.py java'
+command! Java execute 'read !python3 ~/path/to/boiler_plate.py java'
 
 " CPP
-command! Cpp execute 'read !python3 ~/path/to/boilerplate.py cpp'
+command! Cpp execute 'read !python3 ~/path/to/boiler_plate.py cpp'
