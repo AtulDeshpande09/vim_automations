@@ -44,17 +44,17 @@ int main() {
 }"""
 
 def generate_c_template():
-    return "#include <stdio.h>
+    return """#include <stdio.h>
 
 int main(void) {
     // This is the main function of the program
     printf("Hello, World!\n");
 
     return 0;
-}"
+}"""
 
 def generate_cSharp_template():
-    return "namespace MyProject;
+    return """namespace MyProject;
 
 class Program
 {
@@ -79,7 +79,7 @@ height: 100%;
 body {
 min-height: 100%;
 background-color:black;
-}"
+}"""
 
 
 
